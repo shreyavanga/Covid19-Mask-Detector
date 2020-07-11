@@ -7,19 +7,15 @@ It can be used in real time systems for detecting whether people are wearing mas
 
 
 ## Table of Contents
-  1. Installation
-  2. Usage
-  3. Implementation
+  1. Usage
+  2. Implementation
   
-  
-### 1. Installation
-      The required list is mentioned in requirements.txt
       
-### 2. Usage
+### 1. Usage
  1. First run the train_mask_detector.py file in the experiements folder by specifying the path of the dataset
  2. Use the model in the detect_mask_video.py for detecting whether the person has a mask or not on his face
 
-### 3. Implementation of COVID19 Mask Detector with OpenCV, Keras and Deep Learning
+### 2. Implementation of COVID19 Mask Detector with OpenCV, Keras and Deep Learning
 
 The model is made in two phases:
 1. Train the face mask detector model
